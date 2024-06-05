@@ -1,0 +1,29 @@
+# Node modules directory
+node_modules/
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+
+# IDE configuration files
+.vscode/
+
+# Ignore all files in parent directory
+/*
+
+# Allow the current directory
+!/
+
+# Allow all files and directories inside the current directory
+!*/
+!.gitignore
+
+# Allow specific project directories and files
+!path/to/your/project/directory/**
