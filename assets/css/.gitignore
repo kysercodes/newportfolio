@@ -26,4 +26,5 @@ Desktop.ini
 !.gitignore
 
 # Allow specific project directories and files
-!path/to/your/project/directory/**
+# Allow all files and directories inside the html5up-paradigm-shift directory
+!html5up-paradigm-shift/**
